@@ -11,13 +11,13 @@
 * Interface to be use: fill_data_in_pdf(position, data_to_fill=data), Run this function with specify parameters.
 * For example:  
     position = {'position_x': [], 'position_y': []}
-    data = []
+    data = []    
     position['position_x'].append('315')
-    position['position_y'].append('650')
-    data.append('555')
+    position['position_y'].append('650')   
+    data.append('555')  
     position['position_x'].append('410')
-    position['position_y'].append('650')
-    data.append('222')
+    position['position_y'].append('650')  
+    data.append('222')  
     position['position_x'].append('410')
-    position['position_y'].append('625')
+    position['position_y'].append('625')  
     data.append('000')
