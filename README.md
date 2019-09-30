@@ -8,7 +8,7 @@
     @param destination_pdf: generate new pdf.
     @return: no defined.
 
-* Interface to be use: fill_data_in_pdf(position, data_to_fill=data), Run this function with specify parameters.
+* Interface to be use: **fill_data_in_pdf(position, data_to_fill=data)**, Run this function with specify parameters.
 * For example:  
     position = {'position_x': [], 'position_y': []}
     data = []    
