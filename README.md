@@ -6,7 +6,11 @@
 @param data_to_fill: a list include all data need to be filled into pdf. Must be assigned relevant position.  
 @param original_pdf: The pdf to be filled.  
 @param destination_pdf: generate new pdf.  
-@return: no defined.
+
+# Requirements:
+Python 3.6  
+PyPDF2  
+reportlab
 
 ## Interface to be use:     
 
