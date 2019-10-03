@@ -8,20 +8,22 @@
 @param destination_pdf: generate new pdf.  
 
 # Requirements:
-Python 3.6  
+_Python 3.6  
 PyPDF2  
-reportlab
+reportlab_
 
+
+## For example of parameters:  
+    position = {'position_x': [], 'position_y': []}
+    data = []    
+    position['position_x'].append('315')   
+    position['position_y'].append('650')   
+    data.append('555') 
 ## Interface to be use:     
 
 Run this function with specify parameters.      
 ```
 fill_data_in_pdf(position, data_to_fill=data)
 ```
-## For example of parameters:  
-    position = {'position_x': [], 'position_y': []}
-    data = []    
-    position['position_x'].append('315')   
-    position['position_y'].append('650')   
-    data.append('555')  
+ 
     
